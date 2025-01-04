@@ -1,0 +1,18 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    int n=0;
+    int sum;
+   printf("Enter Value of n");
+   scanf("%d",&n);
+
+   if(n!=0)
+   {
+      sum=sum+n;
+   }
+   else
+        printf("Sum is = %d", sum);
+
+  }
