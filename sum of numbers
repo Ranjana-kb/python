@@ -1,18 +1,6 @@
-#include <stdio.h>
-#include <stdlib.h>
-
-int main()
-{
-    int n=0;
-    int sum;
-   printf("Enter Value of n");
-   scanf("%d",&n);
-
-   if(n!=0)
-   {
-      sum=sum+n;
-   }
-   else
-        printf("Sum is = %d", sum);
-
-  }
+num1 = float(input("Enter the first number: "))
+num2 = float(input("Enter the second number: "))
+sum_result = 0
+if num1 and num2:
+    sum_result = num1 + num2
+print(f"The sum of {num1} and {num2} is {sum_result}.")
