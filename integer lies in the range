@@ -1,9 +1,9 @@
-# <stdio.h>
-
-int main() {
-    int n = 11;
-    if (n <= 20 && n >= 10)
-        printf("%d is in the range [10, 20]", n);        
-
-    return 0;
-}
+ num = int(input("Enter an integer: "))
+start = 10
+end = 20
+for i in range(start, end + 1):
+    if num == i:
+        print(f"{num} lies in the range from {start} to {end}.")
+        break
+else:
+    print(f"{num} does not lie in the range from {start} to {end}.")
